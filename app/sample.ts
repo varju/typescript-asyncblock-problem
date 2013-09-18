@@ -1,10 +1,10 @@
-/// <reference lib='asyncblock.d.ts' />
-/// <reference lib='node.d.ts' />
-/// <reference lib='overrides.d.ts' />
+/// <reference path='asyncblock.d.ts' />
+/// <reference path='node.d.ts' />
+/// <reference path='overrides.d.ts' />
 
 import asyncblock = require('asyncblock');
 import fs = require('fs');
-import internalLib = require('internal_lib');
+import internalLib = require('./internal_lib');
 
 export function execute() {
   /*

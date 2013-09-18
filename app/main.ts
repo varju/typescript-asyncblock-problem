@@ -1,6 +1,6 @@
-/// <reference lib='asyncblock.d.ts' />
-/// <reference lib='node.d.ts' />
-/// <reference lib='overrides.d.ts' />
+/// <reference path='asyncblock.d.ts' />
+/// <reference path='node.d.ts' />
+/// <reference path='overrides.d.ts' />
 
 import asyncblock = require('asyncblock');
 asyncblock.enableTransform();
