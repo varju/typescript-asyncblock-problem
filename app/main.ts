@@ -5,5 +5,5 @@
 import asyncblock = require('asyncblock');
 asyncblock.enableTransform();
 
-import externalSample = require('external_sample');
-externalSample.execute();
+import sample = require('sample');
+sample.execute();

@@ -2,3 +2,7 @@
 declare module "fs" {
   function readFile(filename: string): AsyncFunction<string>;
 }
+
+declare module "internal_lib" {
+  function foo(): AsyncFunction<string>;
+}
