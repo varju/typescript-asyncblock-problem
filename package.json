@@ -1,0 +1,20 @@
+{
+  "name": "typescript-asyncblock",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "travis-cov": {
+      "threshold": 95
+    }
+  },
+  "dependencies": {
+    "asyncblock": "~2.1.14"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-typescript": "~0.2.4"
+  }
+}
